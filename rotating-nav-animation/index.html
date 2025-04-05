@@ -3,13 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <title>Rotating nav animation</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Rotating nav animation</h1>
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Juegos para disociarse del mundo exterior</h1>
+        <small>Hollow Knight: Silksong</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          quis praesentium enim fugiat. Blanditiis minima, nisi suscipit ratione
+          dolores reiciendis. Blanditiis libero incidunt voluptatibus veritatis
+          nesciunt omnis, provident quasi veniam. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. In accusantium aspernatur ad minus.
+          Quibusdam dolorem optio tempora tenetur non voluptatibus nihil.
+          Deserunt laudantium atque doloribus dolore expedita consequatur earum
+          tempore.
+        </p>
+
+        <h3>Hollow Knight</h3>
+        <img
+          src="https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="doggy"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis
+          consequuntur id voluptas alias dolores blanditiis, dolorum doloribus
+          libero ipsa vitae facilis corporis excepturi in fuga dolor eum
+          aspernatur rerum. Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Distinctio modi, perferendis rerum commodi facilis consequuntur
+          voluptatum animi. Rerum corrupti rem, autem consectetur minima dolorem
+          aut libero, fugiat sapiente provident voluptatem.
+        </p>
+      </div>
     </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
+        <li><i class="fas fa-user-alt"></i><a href="#"> About</a></li>
+        <li><i class="fas fa-envelope"></i><a href="#"> Contact</a></li>
+      </ul>
+    </nav>
+
     <script src="script.js"></script>
   </body>
 </html>
