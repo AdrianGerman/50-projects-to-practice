@@ -11,3 +11,51 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel {
+  width: 90vw;
+  max-width: 500px;
+  height: 550px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.btn {
+  margin-top: 11px;
+
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
